@@ -6,24 +6,23 @@ var ContactForm = React.createClass({
 	},
 	render: function () {
 		return (
-			<form className={'contactForm'}
-				<imput
+			<form className={'contactForm'}>
+				<input
 					type={'text'}
 					placeholder={'Imię'}
-					value={this.props.contact.firstName}>
+					value={this.props.contact.firstName} />
 				<input
 					type={'text'}
 					placeholder={'Nazwisko'}
-					value={this.props.contact.lastName}>
+					value={this.props.contact.lastName} />
 				<input
 					type={'email'}
 					placeholder={'Email'}
-					value={this.props.contact.email}>
-				<button
-					type={'submit'},
-					'Dodaj kontakt'>
-				<\button>
-			<\form>
+					value={this.props.contact.email} />
+				<button type={'submit'}>
+					{'Dodaj kontakt'}
+				</button>
+			</form>
 			)
 	},
 });
