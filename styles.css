@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	padding: 10px;
+}
+#app {
+	border: .5px solid black;
+}
+.contactForm {
+	border: .5px solid #E8EAF6;
+}
+.classItem {
+	background-color: #E8EAF6;
+	margin: 10px 0;
+}
+.contactImage {
+	width: 80px;
+	height: 80px;
+}
